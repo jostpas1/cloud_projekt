@@ -1,5 +1,13 @@
 {
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "description": "Node.js on Docker",
+  "author": "Pascal Jost <jostpas1@students.zhaw.ch>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.16.1"
   }
 }
